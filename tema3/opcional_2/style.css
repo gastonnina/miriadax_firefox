@@ -1,0 +1,129 @@
+/* 
+    Created on : Dec 1, 2013, 5:04:37 PM
+    Author     : Gaston Nina <gastonnina@gmail.com>
+*/
+body{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.35)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+    background-repeat: none;
+}
+header{
+    width: 100%;
+    text-align: center;
+    
+    
+    font-size: 3em;
+    margin: 0;
+    
+    color: #fff;
+    
+    text-shadow: 6px 5px 5px #888888;
+}
+
+nav {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 10px;
+    height: 24px;
+    margin: 22px 9px 23px 0;
+    opacity: 0.8;
+    padding: 0;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul{
+    padding-top: 3px;    
+}
+nav ul li{
+    padding: 3px;
+    margin:-3px;
+     display: inline;
+     border-left: 1px solid #000;
+}
+nav ul li:hover{
+    background-color: #A9EB43;
+    color: #fff;
+}
+nav ul li:first-child{
+    border-left: none;
+}
+article{
+    width: 70%;
+}
+aside{
+    width: 30%;
+    font-size: 2em;
+    color: #9DDD55;
+}
+footer{
+    width: 100%;
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+h1{
+    
+}
+article {
+	min-height: 400px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 18px;
+	margin-left: 20;
+	display: block;
+	padding-left: 20px;
+}
+article p{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+}
+@font-face {
+    font-family: 'firefox';
+    src: url('FiraSansOT-LightItalic.otf');
+
+
+}
+
+.fuente_firefox{
+    font-family: firefox;
+    
+}
+.fuente_android{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+}
+.imagen{
+	width: 300px;
+	padding-left: 10px;
+	text-align: center;
+        
+}
+aside img{
+    border-radius: 10px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.left { 
+    float: left; 
+}
+.right { 
+    float: right; 
+}
+.clear { 
+    clear: both; 
+}

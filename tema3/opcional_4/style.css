@@ -1,0 +1,39 @@
+#sidebar {
+    left: 15px;
+    position: fixed;
+    top: 15px;
+    width: 136px;
+    z-index: 2;
+}
+#sidebar > nav {
+    border-radius: 0 0 2px 2px;
+    border-top: 1px solid #282828;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+#sidebar > header, #sidebar > div, #sidebar > nav {
+    background-color: #313131;
+    box-shadow: 0 0 7px 0 rgba(50, 50, 50, 0.45);
+}
+#sidebar > nav ul {
+    border-bottom: 1px solid #3C3C3C;
+    color: #757575;
+    list-style: none outside none;
+}
+#sidebar > nav > ul > li.selected, #sidebar > nav > ul > li:hover {
+    background-color: #292929;
+    color: #FFFFFF;
+}
+#sidebar > nav ul > li {
+    transition: background-color 0.8s ease 0s;
+}
+#sidebar > nav ul > .selected > a:after {
+    background: none repeat scroll 0 0 #018CDD;
+    content: "";
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+}

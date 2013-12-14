@@ -1,0 +1,28 @@
+/**
+* @author Gaston Nina <gastonnina@gmail.com>
+* La Paz - Bolivia
+*/
+body {
+	background-color: #ddd;	
+	font-family: "Arial";
+	font-variant: "Times";
+}
+h1{
+	margin-top: 10%;
+
+}
+p{
+	line-height: 20px;
+	
+	font-size: 15px;
+}
+dfn{
+	color: #00f;
+	font-weight: bold;
+}
+acronym{
+	color: #CF5676
+}
+blockquote{
+	color: #444D59
+}

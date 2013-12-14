@@ -1,0 +1,39 @@
+/**
+* @author Gaston Nina <gastonnina@gmail.com>
+* La Paz - Bolivia
+*/
+body{
+	background-color: #ddd;
+	font-size: 11pt;
+	font-family: Arial;
+	font-variant: "Times";
+	margin:0;
+	padding: 10px;
+	color: #000;
+}
+h1{
+	color: #4E50E2;
+	background-color: #C1DDF5;
+	opacity:0.4;
+	padding: 13px;
+	border-color: #f00;
+	border:2px solid;
+	border-radius:25px;
+}
+h2{
+color: #2C7C7C;	
+}
+h3{
+color: #62A9A9;	
+}
+#contenedor{
+	line-height: 1.5em;
+	margin:0 20px;
+}
+ul#fichas_ajedrez strong{
+	font-weight: bold;
+	color: #415F70;
+}
+span{
+	padding-left: 20px;
+}

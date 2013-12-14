@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>Titanes del Ajedrez</title>
+
+        <link rel="stylesheet" href="style/action_menu.css">
+        <link rel="stylesheet" href="style/buttons.css">
+        <link rel="stylesheet" href="style/confirm.css">
+        <link rel="stylesheet" href="style/headers.css">
+        <link rel="stylesheet" href="style/input_areas.css">
+        <link rel="stylesheet" href="style/status.css">
+        <link rel="stylesheet" href="style/switches.css">
+        <link rel="stylesheet" href="style_unstable/drawer.css">
+        <link rel="stylesheet" href="style_unstable/lists.css">
+        <link rel="stylesheet" href="style_unstable/seekbars.css">
+		<!-- Transitions -->
+        <link rel="stylesheet" href="transitions.css">
+
+        <!-- Util CSS: some extra tricks -->
+        <link rel="stylesheet" href="util.css">
+        <link rel="stylesheet" href="fonts.css">
+
+        <!-- App styles -->
+        <link rel="stylesheet" href="style_app/splash_screen.css">
+        <link rel="stylesheet" href="style_app/options_screen.css">
+        <link rel="stylesheet" href="style_app/app_header.css">
+        <link rel="stylesheet" href="style_app/main.css">
+
+
+        <script type="text/javascript" defer="defer" src="js/status.js"></script>
+        <script type="text/javascript" defer="defer" src="js/seekbars.js"></script>
+        <script type="text/javascript" defer="defer" src="js/app.js"></script>
+</head>
+<body>
+	 <section class="current" id="index" data-position="current">
+
+            <section data-type="sidebar">
+                <header>
+                    <menu type="toolbar">
+                        <a href="#">Cerrar</a>
+                    </menu>
+                    <h1>Configuraciones</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="#" id="btn-opt1">General</a></li>
+                        <li><a href="#" id="btn-opt2">Apariencia</a></li>
+                        <li><a href="#" id="btn-opt3">Ayuda</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="drawer" role="region">
+                <header class="fixed">
+                    <a href="#"><span class="icon icon-menu">hide sidebar</span></a>
+                    <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+                    <h1><span class="icon-header"></span>Titanes del <strong>Ajedrez</strong></h1>
+                </header>
+                <article class="content scrollable">
+                    <div id="splash_logo">
+                        <img src="images/logo_splash.jpg" alt="logo">
+                    </div>
+                    <div id="splash_buttons">
+                        <button id="btn-start">Nuevo Juego</button>
+                        <button id="btn-load-game">Recuperar Juego</button>
+                        <a href="#drawer"><button>Configuraciones</button></a>
+                    </div>
+                </article>
+            </section>
+
+        </section> <!-- end index -->
+        <!--··························· Pantalla Juego ···························-->
+        <section class="right" role="region" id="opt-menu3" data-position="right">
+        <header class="fixed">
+                <menu type="toolbar">
+                    <a id="btn-back-home" href="#">X</a>
+                </menu>
+                <h1>Titanes del  <strong>Ajedrez</strong></h1>
+            </header>
+            <article class="content scrollable header">
+            <h2>.: Gaston Nina :.</h2>
+            <h3>Cómo jugar</h3>
+		<span>
+			Primero salen las blancas y luego se alternan los turnos.<br />
+			Haga clic en una pieza y luego en el recuadro al que quiere moverla. Cuando selecciona una pieza, Titanes del ajedrez le muestra a dónde puede moverla resaltando el recuadro en azul; los recuadros con piezas contrarias que puede capturar se muestran en color rojo.<br />
+			<ul id="fichas_ajedrez">
+				<li><strong>Rey:</strong> un recuadro en cualquier dirección: hacia delante, hacia atrás, de lado o en diagonal. El rey es la pieza más débil del juego y la más importante.</li>
+				<li><strong>Reina :</strong> un número ilimitado de recuadros sin ocupar en cualquier dirección. La reina es la pieza más poderosa del juego.</li>
+				<li><strong>Torre:</strong> un número ilimitado de recuadros libres, pero solo hacia delante, hacia atrás o de lado.</li>
+				<li><strong>Alfil:</strong> un número ilimitado de recuadros libres, pero solo en diagonal.</li>
+				<li><strong>Caballo:</strong> en forma de <acronym title="movimiento de ajedrez">"L"</acronym>: dos recuadros hacia cualquier dirección, un giro de 90 grados y un recuadro más. El caballo es el <dfn>"bicho raro"</dfn> del juego. Los caballos son también las únicas piezas que pueden saltar sobre las demás.</li>
+				<li><strong>Peón:</strong> dos recuadros hacia delante en el primer movimiento; un solo recuadro en los siguientes.</li>
+				<li><strong>Excepción:</strong> los peones capturan piezas enemigas moviéndose en diagonal.</li>
+				Un jaque mate se produce cuando una pieza enemiga atrapa al rey y éste no tiene escapatoria posible. Cuando esto ocurre, el recuadro del rey se enciende de color rojo.</li>
+			</ul>
+		</span>
+            </article>
+        </section>
+</body>
+</html>

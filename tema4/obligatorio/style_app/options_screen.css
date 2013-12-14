@@ -1,0 +1,49 @@
+/*
+styles of option screens
+*/
+/* 
+    Created on : 25-nov-2013, 23:57:30
+    Author     : Fran Aragon Mesa
+*/
+
+div.menu_element{
+    font-size: 1.4rem;
+    margin: 0 1.5rem 1rem;
+    padding: 0 0.5rem 0.4rem;
+    border-bottom: #6f6f6f solid 1px;
+}
+
+div.menu_element h2{
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+
+div.menu_element p{
+    float: left;
+    padding-top: 0.3rem;
+}
+
+div.menu_element label{
+    float: right;
+    height: 2.5rem;
+}
+
+div.menu_group_header, div.menu_element_text{
+    font-size: 1.4rem;
+    margin: 0 1.5rem 1rem;
+    padding: 0 0.5rem 0.4rem;
+}
+
+div.menu_group_header{
+    border-bottom: #ff8400 solid 1px;
+    color: #ff8400;
+    text-align: center;
+}
+
+div.menu_element_text h2{ font-weight: bold; }
+
+div.menu_element_text p, div.menu_element_text li{ margin-bottom: 1.3rem; }
+
+div.menu_element_text p{ padding-top: 0.3rem; }
+
+div.menu_element_text li{ margin-left: 0.8rem; }

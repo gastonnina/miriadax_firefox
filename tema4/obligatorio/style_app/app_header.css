@@ -1,0 +1,16 @@
+/*
+styles of header app 
+*/
+/* 
+    Created on : 25-nov-2013, 16:09:06
+    Author     : Fran Aragon Mesa
+*/
+
+.icon-header{
+    /*background: url("img/micro_icon.png") no-repeat 40% 25%;*/
+    display: inline-block;
+    height: 5rem;
+    position: relative;
+    vertical-align: middle;
+    width: 3rem;
+}

@@ -1,6 +1,6 @@
 $(function() {
-    localStorage.m = (localStorage.c || "0.000");
-    localStorage.s = (localStorage.c || "0.000");
+    localStorage.m = (localStorage.m || "0");
+    localStorage.s = (localStorage.s || "0");
     localStorage.c = (localStorage.c || "0.000");
     localStorage.log = (localStorage.log || '');
 

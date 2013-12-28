@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Cronómetro</title><meta charset="UTF-8">
+        <script src="zepto.min.js" type="text/javascript" ></script>
+        <script src="touch.js" type="text/javascript" ></script>
+        <script src="canvas.js" type="text/javascript" ></script>
+        <script src="functions.js" type="text/javascript" ></script>
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen, projection">
+    </head>
+    <body>
+        <header>
+            <h1>Cronómetro</h1>
+        </header>
+        <article>
+            <div id="left">
+            <p id="contador"><span id="minuto">0</span>:<span id="segundo">0</span>.<span id="censegundo">00</span></p>
+            <canvas height="250" width="250" id="lienzo">
+            Su navegador no permite utilizar canvas.
+        </canvas>
+            <div style="display: block"></div>
+            <button type="button" id="cambiar">Play</button>
+            <button type="button" id="inicializar">Reset</button>
+            </div>
+            <div id="rigth">
+                <ul id="crono_log"></ul>
+            </div>
+            
+        </article>
+        <footer>
+            <h3><span id="crono"> 0.0 </span> segundos </h3>
+        </footer>
+        
+
+        
+    </body>
+</html>

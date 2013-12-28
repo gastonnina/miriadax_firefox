@@ -1,0 +1,13 @@
+{
+  "name": "Cronometro Analogico Digital",
+  "description": "parte de la practica de miriadax",
+  "launch_path": "/cronometro.html",
+  "icons": {
+    "128": "/icono-128.png"
+  },
+  "developer": {
+    "name": "Gaston Nina",
+    "url": "http://gastonnina.com"
+  },
+  "default_locale": "en"
+}

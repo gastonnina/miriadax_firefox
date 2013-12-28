@@ -1,0 +1,102 @@
+/* 
+    Created on : Dec 14, 2013, 5:04:37 PM
+    Author     : Gaston Nina <gastonnina@gmail.com>
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.35)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+    background-repeat: none;
+    
+}
+header{
+    
+    text-align: center;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ddd;
+    opacity: 0.5;
+}
+div#left{
+    text-align: center;
+}
+article{
+    margin: 0;
+}
+footer{
+    bottom: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+    width: 100%;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+button{
+     border: medium outset;
+    width: 46%;
+}
+ul{
+    display: inline;
+    list-style: none outside none;
+}
+li{
+     border: 1px solid #FFFFFF;
+    margin: 5px;
+    padding-right: 10px;
+    text-align: right;
+}
+p#contador{
+    margin: 0px;
+    font-size: 2em;
+    position: absolute;
+    left: 34%;
+    top: 180px;
+}
+@media all and (max-width: 1939px) and (min-width: 400px) {
+    p#contador{
+    margin: 0px;
+    font-size: 2em;
+    position: absolute;
+    left: 17%;
+    top: 180px;
+}
+    div#left{
+    text-align: center;
+    
+    width: 50%;
+    float: left;
+    }
+    div#rigth{
+    
+    width: 50%;
+    float: left;  
+    min-height: 250px;
+    }
+}
+@media all and (max-width: 1939px) and (min-width: 800px) {
+    p#contador{
+    
+    left: 19%;
+    
+}
+}
+@media all and (max-width: 1939px) and (min-width: 1200px) {
+    p#contador{
+    
+    left: 21%;
+    
+}
+}

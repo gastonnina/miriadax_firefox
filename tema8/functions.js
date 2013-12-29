@@ -106,6 +106,8 @@ $(function() {
         $('#crono_log').html('');
         $('#minuto').html('0');
         $('#segundo').html('0');
+        $('#censegundo').html('00');
+        dibujar(); // Renderizo el reloj
     });
     $("#inicializar").on('click', function() {
         $("#inicializar").prop('disabled', true);
@@ -115,6 +117,8 @@ $(function() {
         $('#crono_log').html('');
         $('#minuto').html('0');
         $('#segundo').html('0');
+        $('#censegundo').html('00');
+        dibujar(); // Renderizo el reloj
     });
     mostrar();
     dibujar(); // Renderizo el reloj

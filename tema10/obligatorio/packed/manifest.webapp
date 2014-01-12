@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "name": "Rutas Mapa",
+  "description": "Ejercicio de mapas",
+  "launch_path": "/ejercicio10.html",
+  "icons": {
+    "16":  "/ico_16.png",
+    "48":  "/ico_48.png",
+    "128": "/ico_128.png"
+  },
+  "developer": {
+    "name": "Gaston Nina",
+    "url": "http://gastonnina.com"
+  }
+}
